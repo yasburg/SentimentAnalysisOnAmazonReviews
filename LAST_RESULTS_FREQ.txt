@@ -1,0 +1,85 @@
+Random Forest took 89.1 seconds
+-------------------------------------------
+With Cross Validation(10):
+Accuracy: 0.8551 (+/- 0.0192)
+Cross validation took: 604.9309635162354
+Confusion matrix:
+[[2567  393]
+ [ 437 2647]]
+Accuracy: 86.26737260092654
+-------------------------------------------
+Binary Logistic Regression with Unigrams:
+With Cross Validation(10):
+Accuracy: 0.8841 (+/- 0.0151)
+Cross validation took: 1.062162160873413
+Final Accuracy: % 88.071
+-------------------------------------------
+Positive words:
+('great', 4.507060708974815)
+('love', 3.9796389038916935)
+('best', 2.559191342381119)
+('enjoy', 2.4423602645282103)
+('excel', 2.164324047296739)
+
+Negative words:
+('wast', -3.4190919944892944)
+('bad', -3.4112908906565957)
+('bore', -2.843476008443953)
+('worst', -2.622262069342467)
+('money', -2.3487730318345386)
+-------------------------------------------
+Binary Logistic Regression with Bigrams:
+With Cross Validation(10):
+Accuracy: 0.8714 (+/- 0.0163)
+Cross validation took: 3.3031723499298096
+Final Accuracy: % 89.576
+Binary Logistic took 18.5 seconds
+-------------------------------------------
+NB with Unigrams:
+With Cross Validation(10):
+Accuracy: 0.8824 (+/- 0.0135)
+Cross validation took: 1.003319501876831
+Final Accuracy: % 87.972
+NB with Unigram took 22.3 seconds
+-------------------------------------------
+NB with Bigrams:
+With Cross Validation(10):
+Accuracy: 0.8716 (+/- 0.0169)
+Cross validation took: 3.303173065185547
+Final Accuracy: % 88.766
+NB with Bigram took 33.5 seconds
+-------------------------------------------
+SVM with Unigrams:
+With Cross Validation(10):
+Accuracy: 0.8840 (+/- 0.0209)
+Cross validation took: 0.5206122398376465
+Final Accuracy: 88.799
+SVM unigram took 2.9 seconds
+-------------------------------------------
+SVM with Bigrams:
+With Cross Validation(10):
+Accuracy: 0.8690 (+/- 0.0154)
+Cross validation took: 1.5219285488128662
+Final Accuracy: 87.624
+SVM bigram took 9.5 seconds
+-------------------------------------------
+Vectorizing Training Text
+Vocabulary Size: 41745
+Vectorizing Testing Text
+Fitting Model
+NBSVM unigram took 86.5 seconds
+With Cross Validation(10):
+Accuracy: 0.9096 (+/- 0.0099)
+Cross validation took: 1.5897529125213623
+Test Accuracy: 0.9043679682329583
+-------------------------------------------
+Vectorizing Training Text
+Vocabulary Size: 2107713
+Vectorizing Testing Text
+Fitting Model
+NBSVM bigram took 103.2 seconds
+With Cross Validation(10):
+Accuracy: 0.9081 (+/- 0.0112)
+Cross validation took: 13.987619161605835
+Test Accuracy: 0.9073461283917935
+total time: 848.2 seconds
